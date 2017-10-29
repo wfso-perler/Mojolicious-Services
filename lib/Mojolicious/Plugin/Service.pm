@@ -35,6 +35,9 @@ sub register{
   );
 }
 
+
+=encoding utf8
+
 =head1 NAME
 
 Mojolicious::Plugin::Service - 向Mojolicious框架中引入Service管理器的插件!

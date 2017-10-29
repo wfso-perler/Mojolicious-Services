@@ -83,6 +83,8 @@ sub _load {
   ref $e ? die $e : return undef;
 }
 
+=encoding utf8
+
 =head1 NAME
 
 Mojolicious::ServiceManage - Service management for Mojolicious Framework

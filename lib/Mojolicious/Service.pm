@@ -14,7 +14,7 @@ sub model{
   return $self->models->{$name};
 }
 
-
+=encoding utf8
 
 
 =head1 NAME
