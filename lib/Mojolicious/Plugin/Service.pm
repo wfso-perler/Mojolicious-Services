@@ -104,7 +104,7 @@ namespace 用于说明service类所在的命名空间，这个属性的值是一
 
 =head1 AUTHOR
 
-wfso, C<< <461663376 at qq.com> >>
+wfso, C<< <461663376@qq.com> >>
 
 =head1 BUGS
 

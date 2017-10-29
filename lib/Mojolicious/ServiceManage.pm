@@ -162,7 +162,7 @@ Mojolicious::ServiceManage 从 Mojolicious::Service中继承了所有方法，�
 
 =head1 AUTHOR
 
-wfso, C<< <461663376 at qq.com> >>
+wfso, C<< <461663376@qq.com> >>
 
 =head1 BUGS
 

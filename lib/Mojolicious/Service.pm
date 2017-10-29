@@ -67,7 +67,7 @@ models 是为service提供数据模型操作接口的对象。
 
 =head1 AUTHOR
 
-wfso, C<< <461663376 at qq.com> >>
+wfso, C<< <461663376@qq.com> >>
 
 =head1 BUGS
 
