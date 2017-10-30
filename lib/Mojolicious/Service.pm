@@ -71,8 +71,8 @@ wfso, C<< <461663376@qq.com> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-mojolicious-servicemanage at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Mojolicious-ServiceManage>.  I will be notified, and then you'll
+Please report any bugs or feature requests to C<bug-mojolicious-Services at rt.cpan.org>, or through
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Mojolicious-Services>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 
@@ -91,19 +91,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Mojolicious-ServiceManage>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Mojolicious-Services>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/Mojolicious-ServiceManage>
+L<http://annocpan.org/dist/Mojolicious-Services>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/Mojolicious-ServiceManage>
+L<http://cpanratings.perl.org/d/Mojolicious-Services>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Mojolicious-ServiceManage/>
+L<http://search.cpan.org/dist/Mojolicious-Services/>
 
 =back
 

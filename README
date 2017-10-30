@@ -1,4 +1,4 @@
-Mojolicious-ServiceManage
+Mojolicious-Services
 
 INSTALLATION
 
@@ -14,21 +14,21 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc Mojolicious::ServiceManage
+    perldoc Mojolicious::Services
 
 You can also look for information at:
 
     RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Mojolicious-ServiceManage
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Mojolicious-Services
 
     AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Mojolicious-ServiceManage
+        http://annocpan.org/dist/Mojolicious-Services
 
     CPAN Ratings
-        http://cpanratings.perl.org/d/Mojolicious-ServiceManage
+        http://cpanratings.perl.org/d/Mojolicious-Services
 
     Search CPAN
-        http://search.cpan.org/dist/Mojolicious-ServiceManage/
+        http://search.cpan.org/dist/Mojolicious-Services/
 
 
 LICENSE AND COPYRIGHT

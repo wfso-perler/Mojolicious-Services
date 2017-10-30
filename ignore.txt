@@ -12,6 +12,6 @@ inc/
 nytprof.out
 pod2htm*.tmp
 pm_to_blib
-Mojolicious-ServiceManage-*
-Mojolicious-ServiceManage-*.tar.gz
+Mojolicious-Services-*
+Mojolicious-Services-*.tar.gz
 .idea/

@@ -3,7 +3,7 @@ use 5.010001;
 use strict;
 use warnings;
 use Test::More;
-use Mojolicious::ServiceManage;
+use Mojolicious::Services;
 
 use lib 't/service-manage';
 
@@ -15,12 +15,13 @@ my $dbi = {dbi=>1};
 my $app = {app=>1};
 my $models = {models=>1};
 
-my $sm = Mojolicious::ServiceManage->new({
+my $sm = Mojolicious::Services->new({
     namespaces=>["Service"],
     dbi=>$dbi,
     app=>$app,
     models=>$models
-  });
+  }
+);
 
 my $t1 = $sm->service("T1");
 

@@ -4,23 +4,23 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-  NAME               => 'Mojolicious::ServiceManage',
+  NAME               => 'Mojolicious::Services',
   AUTHOR             => q{wfso <461663376@qq.com>},
-  VERSION_FROM       => 'lib/Mojolicious/ServiceManage.pm',
-  ABSTRACT_FROM      => 'lib/Mojolicious/ServiceManage.pm',
+  VERSION_FROM       => 'lib/Mojolicious/Services.pm',
+  ABSTRACT_FROM      => 'lib/Mojolicious/Services.pm',
   LICENSE            => 'mit',
   META_MERGE         => {
     dynamic_config => 0,
     'meta-spec'    => {version => 2},
     prereqs        => {runtime => {requires => {perl => '5.010001'}}},
     resources      => {
-      bugtracker => {web => 'https://github.com/wfso/Mojolicious-ServiceManage/issues'},
+      bugtracker => {web => 'https://github.com/wfso/Mojolicious-Services/issues'},
       homepage   => 'http://mojolicious.org',
       license    => ['https://opensource.org/licenses/MIT'],
       repository => {
         type => 'git',
-        url  => 'https://github.com/wfso/Mojolicious-ServiceManage.git',
-        web  => 'https://github.com/wfso/Mojolicious-ServiceManage',
+        url  => 'https://github.com/wfso/Mojolicious-Services.git',
+        web  => 'https://github.com/wfso/Mojolicious-Services',
       }
     },
   },
@@ -33,8 +33,8 @@ WriteMakefile(
     'Test::More' => '0',
   },
   PREREQ_PM          => {
-    Mojolicious => '7.84'
+    Mojolicious => '7.48'
   },
   dist               => {COMPRESS => 'gzip -9f', SUFFIX => 'gz',},
-  clean              => {FILES => 'Mojolicious-ServiceManage-*'},
+  clean              => {FILES => 'Mojolicious-Services-*'},
 );
