@@ -21,10 +21,6 @@ sub model{
 
 Mojolicious::Service - Mojolicious框架中所有Service的基类（具体的Service需要用户实现）!
 
-=head1 VERSION
-
-Version 0.01
-
 
 =head1 SYNOPSIS
 
