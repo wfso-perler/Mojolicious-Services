@@ -2,7 +2,7 @@ package Mojolicious::Service;
 use Mojo::Base -base;
 use Carp 'croak';
 
-has [qw/dbi models app/];
+has [qw/dbi models app c/];
 
 sub model{
   my ($self, $name) = @_;
@@ -52,6 +52,10 @@ models 是为service提供数据模型操作接口的对象。
 =head2 app
 
 当前应用程序的引用，通常是Mojolicious对象。
+
+=head2 c
+
+当前控制器的引用，通常是Mojolicious::Controller子类的对象。
 
 
 =head1 METHODS

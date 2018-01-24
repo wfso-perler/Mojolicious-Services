@@ -5,7 +5,7 @@ use Mojo::Loader qw/find_modules load_class/;
 use Mojo::Util qw/camelize decamelize/;
 use Scalar::Util;
 
-our $VERSION = '1.0.2';
+our $VERSION = '1.1.2';
 
 has services => sub{{}};
 has namespaces=>sub{["Mojolicious::Service"]};

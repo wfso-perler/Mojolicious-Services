@@ -34,7 +34,7 @@ sub register{
     Scalar::Util::weaken $services->{models};
     $app->helper(service=>sub{
         my ($c,$name) = @_;
-        return $services->service($name);;
+        return $services->service($name)->c($c);
       }
     );
   }else{
